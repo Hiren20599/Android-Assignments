@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidUIDevelopment"
+        tools:targetApi="31">
+        <activity
+            android:name=".que_9.TableLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_17.QueSeventeenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_16.QueSixteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_15.QueFifteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_14.QueFourteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_13.QueThirteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_10.QueTenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_12.QueTwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_11.QueElevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_9.QueNineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_8.QueEightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_4.activity.QueFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_3.QueThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_2.ResultTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_2.QueTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_1.QueOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
